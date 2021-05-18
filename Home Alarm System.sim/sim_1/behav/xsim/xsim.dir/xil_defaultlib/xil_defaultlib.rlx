@@ -1,0 +1,12 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+E:/Home Alarm System/Home Alarm System.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+E:/Home Alarm System/Home Alarm System.srcs/sim_1/new/testbench.v,1621334137,verilog,,,,home_alarm_topmodule_tb,,,,,,,,
+E:/Home Alarm System/Home Alarm System.srcs/sources_1/new/binarytoBCD.v,1621329865,verilog,,E:/Home Alarm System/Home Alarm System.srcs/sources_1/new/home_alarm.v,,binarytoBCD,,,,,,,,
+E:/Home Alarm System/Home Alarm System.srcs/sources_1/new/debounce.v,1621329854,verilog,,E:/Home Alarm System/Home Alarm System.srcs/sources_1/new/home_alarm.v,,debounce,,,,,,,,
+E:/Home Alarm System/Home Alarm System.srcs/sources_1/new/home_alarm.v,1621329861,verilog,,E:/Home Alarm System/Home Alarm System.srcs/sources_1/new/home_alarm_topmodule.v,,home_alarm,,,,,,,,
+E:/Home Alarm System/Home Alarm System.srcs/sources_1/new/home_alarm_topmodule.v,1621330891,verilog,,E:/Home Alarm System/Home Alarm System.srcs/sources_1/new/seven_segment_decoder.v,,home_alarm_topmodule,,,,,,,,
+E:/Home Alarm System/Home Alarm System.srcs/sources_1/new/seven_segment_decoder.v,1621329881,verilog,,E:/Home Alarm System/Home Alarm System.srcs/sources_1/new/seven_segment_driver.v,,seven_segment_decoder,,,,,,,,
+E:/Home Alarm System/Home Alarm System.srcs/sources_1/new/seven_segment_driver.v,1621329870,verilog,,E:/Home Alarm System/Home Alarm System.srcs/sim_1/new/testbench.v,,seven_segment_driver,,,,,,,,

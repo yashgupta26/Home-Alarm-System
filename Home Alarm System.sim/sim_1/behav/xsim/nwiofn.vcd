@@ -1,0 +1,1131 @@
+$date
+   Tue May 18 00:10:39 2021
+$end
+$version
+  2020.2
+$end
+$timescale
+  1ps
+$end
+$scope module home_alarm_topmodule_tb $end
+$var reg 1 ! clk $end
+$var reg 1 " btnC $end
+$var reg 1 # btnD $end
+$var reg 1 $ btnL $end
+$var reg 1 % btnR $end
+$var reg 1 & btnU $end
+$var reg 8 ' sw [7:0] $end
+$var wire 2 ( led [1:0] $end
+$var wire 7 ) seg [6:0] $end
+$var wire 4 * an [3:0] $end
+$var wire 1 + JA [0:0] $end
+$scope module DUT $end
+$var wire 1 , clk $end
+$var wire 8 - sw [7:0] $end
+$var wire 1 . btnC $end
+$var wire 1 / btnU $end
+$var wire 1 0 btnD $end
+$var wire 1 1 btnL $end
+$var wire 1 2 btnR $end
+$var wire 2 ( led [1:0] $end
+$var wire 7 ) seg [6:0] $end
+$var wire 4 * an [3:0] $end
+$var wire 1 + JA [0:0] $end
+$var wire 1 3 btnCclr $end
+$var wire 1 4 btnUclr $end
+$var wire 1 5 btnDclr $end
+$var wire 1 6 btnRclr $end
+$var wire 1 7 btnLclr $end
+$scope module dbnC $end
+$var wire 1 , clk $end
+$var wire 1 . btn $end
+$var reg 1 8 btn_clr $end
+$var integer 32 9 count $end
+$var reg 1 : xnew $end
+$var parameter 0 ; delay $end
+$upscope $end
+$scope module dbnU $end
+$var wire 1 , clk $end
+$var wire 1 / btn $end
+$var reg 1 < btn_clr $end
+$var integer 32 = count $end
+$var reg 1 > xnew $end
+$var parameter 0 ? delay $end
+$upscope $end
+$scope module dbnD $end
+$var wire 1 , clk $end
+$var wire 1 0 btn $end
+$var reg 1 @ btn_clr $end
+$var integer 32 A count $end
+$var reg 1 B xnew $end
+$var parameter 0 C delay $end
+$upscope $end
+$scope module dbnL $end
+$var wire 1 , clk $end
+$var wire 1 1 btn $end
+$var reg 1 D btn_clr $end
+$var integer 32 E count $end
+$var reg 1 F xnew $end
+$var parameter 0 G delay $end
+$upscope $end
+$scope module dbnR $end
+$var wire 1 , clk $end
+$var wire 1 2 btn $end
+$var reg 1 H btn_clr $end
+$var integer 32 I count $end
+$var reg 1 J xnew $end
+$var parameter 0 K delay $end
+$upscope $end
+$scope module Home_Alarm $end
+$var wire 1 , clk $end
+$var wire 8 - pass [7:0] $end
+$var wire 1 3 act $end
+$var wire 1 4 door $end
+$var wire 1 5 win1 $end
+$var wire 1 6 win2 $end
+$var wire 1 7 win3 $end
+$var reg 1 L blinkled $end
+$var reg 1 M alarmled $end
+$var wire 7 ) seg [6:0] $end
+$var wire 4 * an [3:0] $end
+$var reg 1 N buzzer $end
+$var reg 2 O state [1:0] $end
+$var integer 32 P passcounter $end
+$var reg 8 Q seconds [7:0] $end
+$var reg 4 R active [3:0] $end
+$var wire 4 S thos [3:0] $end
+$var wire 4 T huns [3:0] $end
+$var wire 4 U tens [3:0] $end
+$var wire 4 V ones [3:0] $end
+$var parameter 2 W AOFF [1:0] $end
+$var parameter 2 X AON [1:0] $end
+$var parameter 2 Y PASSCHECK [1:0] $end
+$var parameter 2 Z SOUND [1:0] $end
+$var parameter 32 [ secondtime [31:0] $end
+$var parameter 8 \ password [7:0] $end
+$scope module bin $end
+$var wire 12 ] binary [11:0] $end
+$var reg 4 ^ thos [3:0] $end
+$var reg 4 _ huns [3:0] $end
+$var reg 4 ` tens [3:0] $end
+$var reg 4 a ones [3:0] $end
+$var reg 12 b temp [11:0] $end
+$upscope $end
+$scope module seg7 $end
+$var wire 1 , clk $end
+$var wire 1 c clr $end
+$var wire 4 U in1 [3:0] $end
+$var wire 4 V in2 [3:0] $end
+$var wire 4 d in3 [3:0] $end
+$var wire 4 e in4 [3:0] $end
+$var reg 7 f seg [6:0] $end
+$var reg 4 g an [3:0] $end
+$var wire 7 h seg1 [6:0] $end
+$var wire 7 i seg2 [6:0] $end
+$var wire 7 j seg3 [6:0] $end
+$var wire 7 k seg4 [6:0] $end
+$var reg 13 l segclk [12:0] $end
+$var reg 2 m state [1:0] $end
+$var parameter 2 n LEFT [1:0] $end
+$var parameter 2 o MIDLEFT [1:0] $end
+$var parameter 2 p MIDRIGHT [1:0] $end
+$var parameter 2 q RIGHT [1:0] $end
+$scope module disp1 $end
+$var wire 4 U in [3:0] $end
+$var reg 7 r out [6:0] $end
+$upscope $end
+$scope module disp2 $end
+$var wire 4 V in [3:0] $end
+$var reg 7 s out [6:0] $end
+$upscope $end
+$scope module disp3 $end
+$var wire 4 d in [3:0] $end
+$var reg 7 t out [6:0] $end
+$upscope $end
+$scope module disp4 $end
+$var wire 4 e in [3:0] $end
+$var reg 7 u out [6:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+0#
+0$
+0%
+0&
+b1011101 '
+b0 (
+bx )
+bx *
+1+
+0,
+b1011101 -
+1.
+0/
+00
+01
+02
+x3
+x4
+x5
+x6
+x7
+x8
+b0 9
+0:
+r0.002 ;
+x<
+b0 =
+0>
+r0.002 ?
+x@
+b0 A
+0B
+r0.002 C
+xD
+b0 E
+0F
+r0.002 G
+xH
+b0 I
+0J
+r0.002 K
+0L
+0M
+1N
+b0 O
+b0 P
+b0 Q
+b0 R
+b0 S
+b0 T
+b0 U
+b0 V
+b0 W
+b1 X
+b10 Y
+b11 Z
+b1 [
+b1010101 \
+b0 ]
+b0 ^
+b0 _
+b0 `
+b0 a
+b0 b
+0c
+b0 d
+b0 e
+bx f
+bx g
+b1000000 h
+b1000000 i
+b1000000 j
+b1000000 k
+b0 l
+b0 m
+b0 n
+b1 o
+b10 p
+b11 q
+b1000000 r
+b1000000 s
+b1000000 t
+b1000000 u
+$end
+#5
+1!
+b1000000 )
+b111 *
+1,
+1:
+b1 =
+b1 A
+b1 E
+b1 I
+b0 R
+b1000000 f
+b111 g
+b1 l
+b1 m
+#10
+0!
+1%
+0,
+12
+#15
+1!
+1,
+b1 9
+b10 =
+b10 A
+b10 E
+b0 I
+1J
+b0 R
+b10 l
+#20
+0!
+0,
+#25
+1!
+b1011 *
+1,
+b10 9
+b11 =
+b11 A
+b11 E
+b1 I
+b0 R
+b1011 g
+b11 l
+b10 m
+#30
+0!
+0,
+#35
+1!
+1,
+b11 9
+b100 =
+b100 A
+b100 E
+b10 I
+b0 R
+b100 l
+#40
+0!
+0,
+#45
+1!
+b1101 *
+1,
+b100 9
+b101 =
+b101 A
+b101 E
+b11 I
+b0 R
+b1101 g
+b101 l
+b11 m
+#50
+0!
+0,
+#55
+1!
+1,
+b101 9
+b110 =
+b110 A
+b110 E
+b100 I
+b0 R
+b110 l
+#60
+0!
+0,
+#65
+1!
+b1110 *
+1,
+b110 9
+b111 =
+b111 A
+b111 E
+b101 I
+b0 R
+b1110 g
+b111 l
+b0 m
+#70
+0!
+0,
+#75
+1!
+1,
+b111 9
+b1000 =
+b1000 A
+b1000 E
+b110 I
+b0 R
+b1000 l
+#80
+0!
+0,
+#85
+1!
+b111 *
+1,
+b1000 9
+b1001 =
+b1001 A
+b1001 E
+b111 I
+b0 R
+b111 g
+b1001 l
+b1 m
+#90
+0!
+0,
+#95
+1!
+1,
+b1001 9
+b1010 =
+b1010 A
+b1010 E
+b1000 I
+b0 R
+b1010 l
+#100
+0!
+0,
+#105
+1!
+b1011 *
+1,
+b1010 9
+b1011 =
+b1011 A
+b1011 E
+b1001 I
+b0 R
+b1011 g
+b1011 l
+b10 m
+#110
+0!
+b1010101 '
+0,
+b1010101 -
+#115
+1!
+1,
+b1011 9
+b1100 =
+b1100 A
+b1100 E
+b1010 I
+b0 R
+b1100 l
+#120
+0!
+0,
+#125
+1!
+b1101 *
+1,
+b1100 9
+b1101 =
+b1101 A
+b1101 E
+b1011 I
+b0 R
+b1101 g
+b1101 l
+b11 m
+#130
+0!
+0,
+#135
+1!
+1,
+b1101 9
+b1110 =
+b1110 A
+b1110 E
+b1100 I
+b0 R
+b1110 l
+#140
+0!
+0,
+#145
+1!
+b1110 *
+1,
+b1110 9
+b1111 =
+b1111 A
+b1111 E
+b1101 I
+b0 R
+b1110 g
+b1111 l
+b0 m
+#150
+0!
+0,
+#155
+1!
+1,
+b1111 9
+b10000 =
+b10000 A
+b10000 E
+b1110 I
+b0 R
+b10000 l
+#160
+0!
+0,
+#165
+1!
+b111 *
+1,
+b10000 9
+b10001 =
+b10001 A
+b10001 E
+b1111 I
+b0 R
+b111 g
+b10001 l
+b1 m
+#170
+0!
+0,
+#175
+1!
+1,
+b10001 9
+b10010 =
+b10010 A
+b10010 E
+b10000 I
+b0 R
+b10010 l
+#180
+0!
+0,
+#185
+1!
+b1011 *
+1,
+b10010 9
+b10011 =
+b10011 A
+b10011 E
+b10001 I
+b0 R
+b1011 g
+b10011 l
+b10 m
+#190
+0!
+0,
+#195
+1!
+1,
+b10011 9
+b10100 =
+b10100 A
+b10100 E
+b10010 I
+b0 R
+b10100 l
+#200
+0!
+0,
+#205
+1!
+b1101 *
+1,
+b10100 9
+b10101 =
+b10101 A
+b10101 E
+b10011 I
+b0 R
+b1101 g
+b10101 l
+b11 m
+#210
+0!
+0,
+#215
+1!
+1,
+b10101 9
+b10110 =
+b10110 A
+b10110 E
+b10100 I
+b0 R
+b10110 l
+#220
+0!
+0,
+#225
+1!
+b1110 *
+1,
+b10110 9
+b10111 =
+b10111 A
+b10111 E
+b10101 I
+b0 R
+b1110 g
+b10111 l
+b0 m
+#230
+0!
+0,
+#235
+1!
+1,
+b10111 9
+b11000 =
+b11000 A
+b11000 E
+b10110 I
+b0 R
+b11000 l
+#240
+0!
+0,
+#245
+1!
+b111 *
+1,
+b11000 9
+b11001 =
+b11001 A
+b11001 E
+b10111 I
+b0 R
+b111 g
+b11001 l
+b1 m
+#250
+0!
+0,
+#255
+1!
+1,
+b11001 9
+b11010 =
+b11010 A
+b11010 E
+b11000 I
+b0 R
+b11010 l
+#260
+0!
+0,
+#265
+1!
+b1011 *
+1,
+b11010 9
+b11011 =
+b11011 A
+b11011 E
+b11001 I
+b0 R
+b1011 g
+b11011 l
+b10 m
+#270
+0!
+0,
+#275
+1!
+1,
+b11011 9
+b11100 =
+b11100 A
+b11100 E
+b11010 I
+b0 R
+b11100 l
+#280
+0!
+0,
+#285
+1!
+b1101 *
+1,
+b11100 9
+b11101 =
+b11101 A
+b11101 E
+b11011 I
+b0 R
+b1101 g
+b11101 l
+b11 m
+#290
+0!
+0,
+#295
+1!
+1,
+b11101 9
+b11110 =
+b11110 A
+b11110 E
+b11100 I
+b0 R
+b11110 l
+#300
+0!
+0,
+#305
+1!
+b1110 *
+1,
+b11110 9
+b11111 =
+b11111 A
+b11111 E
+b11101 I
+b0 R
+b1110 g
+b11111 l
+b0 m
+#310
+0!
+0,
+#315
+1!
+1,
+b11111 9
+b100000 =
+b100000 A
+b100000 E
+b11110 I
+b0 R
+b100000 l
+#320
+0!
+0,
+#325
+1!
+b111 *
+1,
+b100000 9
+b100001 =
+b100001 A
+b100001 E
+b11111 I
+b0 R
+b111 g
+b100001 l
+b1 m
+#330
+0!
+0,
+#335
+1!
+1,
+b100001 9
+b100010 =
+b100010 A
+b100010 E
+b100000 I
+b0 R
+b100010 l
+#340
+0!
+0,
+#345
+1!
+b1011 *
+1,
+b100010 9
+b100011 =
+b100011 A
+b100011 E
+b100001 I
+b0 R
+b1011 g
+b100011 l
+b10 m
+#350
+0!
+0,
+#355
+1!
+1,
+b100011 9
+b100100 =
+b100100 A
+b100100 E
+b100010 I
+b0 R
+b100100 l
+#360
+0!
+0,
+#365
+1!
+b1101 *
+1,
+b100100 9
+b100101 =
+b100101 A
+b100101 E
+b100011 I
+b0 R
+b1101 g
+b100101 l
+b11 m
+#370
+0!
+0,
+#375
+1!
+1,
+b100101 9
+b100110 =
+b100110 A
+b100110 E
+b100100 I
+b0 R
+b100110 l
+#380
+0!
+0,
+#385
+1!
+b1110 *
+1,
+b100110 9
+b100111 =
+b100111 A
+b100111 E
+b100101 I
+b0 R
+b1110 g
+b100111 l
+b0 m
+#390
+0!
+0,
+#395
+1!
+1,
+b100111 9
+b101000 =
+b101000 A
+b101000 E
+b100110 I
+b0 R
+b101000 l
+#400
+0!
+0,
+#405
+1!
+b111 *
+1,
+b101000 9
+b101001 =
+b101001 A
+b101001 E
+b100111 I
+b0 R
+b111 g
+b101001 l
+b1 m
+#410
+0!
+0,
+#415
+1!
+1,
+b101001 9
+b101010 =
+b101010 A
+b101010 E
+b101000 I
+b0 R
+b101010 l
+#420
+0!
+0,
+#425
+1!
+b1011 *
+1,
+b101010 9
+b101011 =
+b101011 A
+b101011 E
+b101001 I
+b0 R
+b1011 g
+b101011 l
+b10 m
+#430
+0!
+0,
+#435
+1!
+1,
+b101011 9
+b101100 =
+b101100 A
+b101100 E
+b101010 I
+b0 R
+b101100 l
+#440
+0!
+0,
+#445
+1!
+b1101 *
+1,
+b101100 9
+b101101 =
+b101101 A
+b101101 E
+b101011 I
+b0 R
+b1101 g
+b101101 l
+b11 m
+#450
+0!
+0,
+#455
+1!
+1,
+b101101 9
+b101110 =
+b101110 A
+b101110 E
+b101100 I
+b0 R
+b101110 l
+#460
+0!
+0,
+#465
+1!
+b1110 *
+1,
+b101110 9
+b101111 =
+b101111 A
+b101111 E
+b101101 I
+b0 R
+b1110 g
+b101111 l
+b0 m
+#470
+0!
+0,
+#475
+1!
+1,
+b101111 9
+b110000 =
+b110000 A
+b110000 E
+b101110 I
+b0 R
+b110000 l
+#480
+0!
+0,
+#485
+1!
+b111 *
+1,
+b110000 9
+b110001 =
+b110001 A
+b110001 E
+b101111 I
+b0 R
+b111 g
+b110001 l
+b1 m
+#490
+0!
+0,
+#495
+1!
+1,
+b110001 9
+b110010 =
+b110010 A
+b110010 E
+b110000 I
+b0 R
+b110010 l
+#500
+0!
+0,
+#505
+1!
+b1011 *
+1,
+b110010 9
+b110011 =
+b110011 A
+b110011 E
+b110001 I
+b0 R
+b1011 g
+b110011 l
+b10 m
+#510
+0!
+0,
+#515
+1!
+1,
+b110011 9
+b110100 =
+b110100 A
+b110100 E
+b110010 I
+b0 R
+b110100 l
+#520
+0!
+0,
+#525
+1!
+b1101 *
+1,
+b110100 9
+b110101 =
+b110101 A
+b110101 E
+b110011 I
+b0 R
+b1101 g
+b110101 l
+b11 m
+#530
+0!
+0,
+#535
+1!
+1,
+b110101 9
+b110110 =
+b110110 A
+b110110 E
+b110100 I
+b0 R
+b110110 l
+#540
+0!
+0,
+#545
+1!
+b1110 *
+1,
+b110110 9
+b110111 =
+b110111 A
+b110111 E
+b110101 I
+b0 R
+b1110 g
+b110111 l
+b0 m
+#550
+0!
+0,
+#555
+1!
+1,
+b110111 9
+b111000 =
+b111000 A
+b111000 E
+b110110 I
+b0 R
+b111000 l
+#560
+0!
+0,
+#565
+1!
+b111 *
+1,
+b111000 9
+b111001 =
+b111001 A
+b111001 E
+b110111 I
+b0 R
+b111 g
+b111001 l
+b1 m
+#570
+0!
+0,
+#575
+1!
+1,
+b111001 9
+b111010 =
+b111010 A
+b111010 E
+b111000 I
+b0 R
+b111010 l
+#580
+0!
+0,
+#585
+1!
+b1011 *
+1,
+b111010 9
+b111011 =
+b111011 A
+b111011 E
+b111001 I
+b0 R
+b1011 g
+b111011 l
+b10 m
+#590
+0!
+0,
+#595
+1!
+1,
+b111011 9
+b111100 =
+b111100 A
+b111100 E
+b111010 I
+b0 R
+b111100 l
+#600
+0!
+0,
+#605
+1!
+b1101 *
+1,
+b111100 9
+b111101 =
+b111101 A
+b111101 E
+b111011 I
+b0 R
+b1101 g
+b111101 l
+b11 m
